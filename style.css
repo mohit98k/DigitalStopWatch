@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#D1FAFF;
+}
+.watch{
+    background-color: #9BD1E5;
+    height: 65vh;
+    width: 100vw;
+    position: relative;
+    top:1.78rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    overflow: hidden; 
+
+}
+.time{
+    background-color: #6A8EAE;
+    width:50vw;
+    height:40vh;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    text-align:center;
+    font-size:8rem;
+    border-radius: 30px;
+    border: 4px solid black;
+    overflow: hidden; 
+    
+}
+.controls{
+    background: transparent;
+}
+.controls button{
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: #4d7398c3;
+    width: 20vw;
+    height: 10vh;
+    margin: 2px;
+    overflow: hidden; 
+    
+}
+.time p{
+    background: transparent;
+}
+.lapfield{
+    margin-top: 2rem;
+    width: 100vw;
+    color: black;
+    font-size: 2rem;
+    visibility:hidden;
+    
+}
+.laplist li {
+    list-style: none;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    background-color: #e6f2ff;
+    border-bottom: 2px solid #cccccca8;
+}
